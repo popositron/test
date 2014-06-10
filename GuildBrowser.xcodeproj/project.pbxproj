@@ -369,9 +369,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9147623A1947430F00483E9A /* GuildBrowser Tests */ = {
+		9147623A1947430F00483E9A /* GuildBrowserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9147624A1947430F00483E9A /* Build configuration list for PBXNativeTarget "GuildBrowser Tests" */;
+			buildConfigurationList = 9147624A1947430F00483E9A /* Build configuration list for PBXNativeTarget "GuildBrowserTests" */;
 			buildPhases = (
 				914762371947430F00483E9A /* Sources */,
 				914762381947430F00483E9A /* Frameworks */,
@@ -382,7 +382,7 @@
 			dependencies = (
 				914762491947430F00483E9A /* PBXTargetDependency */,
 			);
-			name = "GuildBrowser Tests";
+			name = GuildBrowserTests;
 			productName = "GuildBrowser Tests";
 			productReference = 9147623B1947430F00483E9A /* GuildBrowser Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -431,7 +431,7 @@
 			projectRoot = "";
 			targets = (
 				CB9FDC3A15E9872D00B3713E /* GuildBrowser */,
-				9147623A1947430F00483E9A /* GuildBrowser Tests */,
+				9147623A1947430F00483E9A /* GuildBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -702,7 +702,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9147624A1947430F00483E9A /* Build configuration list for PBXNativeTarget "GuildBrowser Tests" */ = {
+		9147624A1947430F00483E9A /* Build configuration list for PBXNativeTarget "GuildBrowserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9147624B1947430F00483E9A /* Debug */,
