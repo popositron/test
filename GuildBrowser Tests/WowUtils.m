@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "WoWUtils.h"
 
 @interface WowUtils : XCTestCase
 
@@ -28,7 +29,9 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssert([@"Mage" isEqualToString:[WoWUtils classFromCharacterType:8]],
+                  @"ok");
+//    XCTAssertTrue(<#expression#>, <#format...#>)
 }
 
 @end
