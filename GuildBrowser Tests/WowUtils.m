@@ -29,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTAssert([@"Mage" isEqualToString:[WoWUtils classFromCharacterType:8]],
+    XCTAssert([@"Mage" isEqualToString:[WoWUtils classFromCharacterType:2]],
                   @"ok");
 //    XCTAssertTrue(<#expression#>, <#format...#>)
 }
